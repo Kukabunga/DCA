@@ -2,7 +2,7 @@
 Notes and useful files for DCA preparation
 
 ### Add user to docker group
-sudo usermod -a -G docker <user_name>
+```sudo usermod -a -G docker <user_name>```
 
 ### Change docker logging settings
 

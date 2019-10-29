@@ -7,7 +7,7 @@ sudo usermod -a -G docker <user_name>
 ### Change docker logging settings
 
 1) Edit daemon file daemon.json. If file doesn't exist creat one
-sudo vi /etc/docker/daemon.json
+```sudo vi /etc/docker/daemon.json```
 2) Add following settings to the file:
 ```
 {
@@ -15,6 +15,6 @@ sudo vi /etc/docker/daemon.json
 }
 ```
 3) Restart docker
-sudo systemctl restart docker
+```sudo systemctl restart docker```
 4) Check changes
-docker info | grep logging
+```docker info | grep logging```
